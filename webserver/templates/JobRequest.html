@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>Job Entry</title>
+
+
+<style>
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.button1 {
+    background-color: red;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+</style>
+</head>
+
+
+<body background= "http://www.pixelstalk.net/wp-content/uploads/2016/11/Desktop-Flat-Design-Wallpapers.jpg">
+
+<h3>{{message}}</h3>
+
+<form id="jobentry" method="get",action="/makevideo">
+
+
+<input type="text" id="customerId" name="customerId" placeholder="Enter Customer Id">
+
+<br/><br/>
+
+<input type="text" id="jobDesc" name="jobDesc" placeholder="Enter Job Description">
+
+<br/><br/>
+
+<input type="submit" name="jobSubmit" value="Enter the Job">
+</form>
+
+
+<form action="/">
+<input type="submit" name="back" value="back">
+</form>
+
+</body>
+
+
+</html>

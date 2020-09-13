@@ -4,7 +4,7 @@ Create AWS account and register for amazon services- EC2 , S3 , SQS , DynamoDB.
 Acqiure AWS access key and save the credentials for configuration purposes.
 Follow the setup folder and follow the execution code. architecture.jpg shows the command flow.
 
-With we LoBUCS achieved efficient job
+With LoBUCS we achieved efficient job
 distribution driven by Client-Worker environment. This
 was done by balancing the workload and using
 parallel processing for utilizing the computation power of

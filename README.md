@@ -1,14 +1,28 @@
 # LoBUCS
+
+### Architecture
+
+![architecture](https://github.com/KKatkar/LoBUCS/blob/master/architecture.JPG)
+
 A load balancing framework using Amazon cloud services.
 Create AWS account and register for amazon services- EC2 , S3 , SQS , DynamoDB.
 Acqiure AWS access key and save the credentials for configuration purposes.
 Follow the setup folder and follow the execution code. architecture.jpg shows the command flow.
+
 
 With LoBUCS we achieved efficient job
 distribution driven by Client-Worker environment. This
 was done by balancing the workload and using
 parallel processing for utilizing the computation power of
 workers.
+
+### Upscaling
+
+![Upscale image](https://github.com/KKatkar/LoBUCS/blob/master/Working1(scaling).png)
+
+### Downscaling
+
+![Downscaling image](https://github.com/KKatkar/LoBUCS/blob/master/Working2(scaling).png)
 
 To establish this efficiency, we dynamically generated
 workers depending on the requirement of the workload.
